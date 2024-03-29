@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网页</h1>
+    </header>
+    <section>
+        <h2>个人简介</h2>
+        <p>你好，我是 [姓名]。我对 [领域/行业] 充满热情，喜欢 [兴趣爱好]。我在 [学校/公司] 学习/工作，专注于 [专业/工作领域]。</p>
+    </section>
+    <section>
+        <h2>技能</h2>
+        <ul>
+            <li>技能一</li>
+            <li>技能二</li>
+            <li>技能三</li>
+            <!-- 在此添加您的技能列表 -->
+        </ul>
+    </section>
+    <section>
+        <h2>联系方式</h2>
+        <p>您可以通过以下方式联系我：</p>
+        <ul>
+            <li>Email: example@example.com</li>
+            <li>电话：+1234567890</li>
+            <!-- 在此添加您的联系方式 -->
+        </ul>
+    </section>
+    <section>
+        <h2>搜索引擎</h2>
+        <form>
+            <label for="gender">性别：</label>
+            <select id="gender" name="gender">
+                <option value="male">男</option>
+                <option value="female">女</option>
+                <option value="other">其他</option>
+            </select><br>
+            <label for="age">年龄：</label>
+            <input type="number" id="age" name="age" min="0" max="150"><br>
+            <label for="weight">体重（kg）：</label>
+            <input type="number" id="weight" name="weight" min="0" max="1000"><br>
+            <input type="submit" value="搜索">
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 我的个人网页</p>
+    </footer>
+</body>
+</html>
